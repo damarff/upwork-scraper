@@ -7,6 +7,7 @@ log_level: INFO          # DEBUG, INFO, WARN, ERROR
 upwork:
   delay: 10              # Seconds between keyword searches
   keywords:
+    # --- High volume (20 keywords) ---
     - python web scraping
     - data extraction API
     - AI automation agent
@@ -27,10 +28,20 @@ upwork:
     - data pipeline ETL
     - screen scraper RPA
     - SEO monitoring tool
+    # --- Low competition (niche keywords) ---
+    - pdfplumber
+    - selenium wire
+    - fastapi playwright
+    - shopify scraper
+    - curl_cffi
+    - excel vba
+    - xml parsing python
+    - google sheets automation
 
 freelancer:
   delay: 3               # Seconds between keyword searches
   keywords:
+    # --- High volume ---
     - python web scraping
     - data extraction API
     - AI automation agent
@@ -51,3 +62,12 @@ freelancer:
     - data pipeline ETL
     - screen scraper RPA
     - SEO monitoring tool
+    # --- Low competition ---
+    - pdfplumber
+    - selenium wire
+    - fastapi playwright
+    - shopify scraper
+    - curl_cffi
+    - excel vba
+    - xml parsing python
+    - google sheets automation

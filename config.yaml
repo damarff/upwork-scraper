@@ -1,0 +1,53 @@
+# Job Scraper Configuration
+# Copy config.yaml to customize
+
+headless: false          # NON-headless biar tembus Cloudflare. Untuk cron, pake xvfb-run.
+log_level: INFO          # DEBUG, INFO, WARN, ERROR
+
+upwork:
+  delay: 10              # Seconds between keyword searches
+  keywords:
+    - python web scraping
+    - data extraction API
+    - AI automation agent
+    - LLM RAG developer
+    - FastAPI backend
+    - browser automation
+    - PDF data extraction
+    - chatbot development
+    - Excel automation Python
+    - n8n workflow automation
+    - web app MVP
+    - voice AI agent
+    - local LLM setup
+    - database migration
+    - document classification AI
+    - webhook integration
+    - social media automation
+    - data pipeline ETL
+    - screen scraper RPA
+    - SEO monitoring tool
+
+freelancer:
+  delay: 3               # Seconds between keyword searches
+  keywords:
+    - python web scraping
+    - data extraction API
+    - AI automation agent
+    - LLM RAG developer
+    - FastAPI backend
+    - browser automation
+    - PDF data extraction
+    - chatbot development
+    - Excel automation Python
+    - n8n workflow automation
+    - web app MVP
+    - voice AI agent
+    - local LLM setup
+    - database migration
+    - document classification AI
+    - webhook integration
+    - social media automation
+    - data pipeline ETL
+    - screen scraper RPA
+    - SEO monitoring tool

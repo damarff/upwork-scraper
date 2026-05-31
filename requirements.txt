@@ -1,0 +1,21 @@
+# Core
+DrissionPage>=4.1
+beautifulsoup4>=4.14
+python-dotenv>=1.0
+
+# Optional: Supabase sync
+supabase>=2.30
+
+# Optional: API server
+fastapi>=0.136
+uvicorn>=0.48
+
+# Optional: YAML config
+pyyaml>=6.0
+
+# Optional: Cloudflare bypass without browser
+curl_cffi>=0.15
+
+# Optional: Alternative browser automation
+nodriver>=0.50
+playwright>=1.60
